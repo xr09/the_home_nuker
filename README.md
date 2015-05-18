@@ -9,5 +9,7 @@ Keep clean your LTSP Server's home folder
 
 Cron sample:
 
-`30 */3 * * * python /opt/nuker/the_home_nuker.py > /var/log/nuker.log 2>&1`
+```shell
+30 */3 * * * python /opt/nuker/the_home_nuker.py > /var/log/nuker.log 2>&1
+```
 
